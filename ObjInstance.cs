@@ -8,17 +8,6 @@ public class ObjInstance : MonoBehaviour
 {
     private int objTotal = 9; //登録したNotesの合計+1
     private int objNum = 0; //乱数格納
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     //Notes生成関数、Timelineで任意に呼び出し
     public void MakeObj()
